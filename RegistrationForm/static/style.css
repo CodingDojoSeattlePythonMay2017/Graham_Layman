@@ -1,0 +1,9 @@
+form{
+  width: 260px;
+}
+form *{
+  display: block;
+}
+form input{
+  margin-bottom: 20px;
+}
