@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+    <title>Index</title>
+  </head>
+  <body>
+    {{pic}}
+
+    <p>index here</p>
+    <form class="" action="/ninjas" method="post">
+      {% csrf_token %}
+      <input type="submit" name="" value="Turtle Power!!">
+    </form>
+    <form class="" action="/ninjas/blue" method="post">
+      {% csrf_token %}
+      <input type="submit" name="" value="Leonardo">
+    </form>
+    <form class="" action="/ninjas/red" method="post">
+      {% csrf_token %}
+      <input type="submit" name="" value="Raphael">
+    </form>
+    <form class="" action="ninjas/purple" method="post">
+      {% csrf_token %}
+      <input type="submit" name="" value="Donatelo">
+    </form>
+    <form class="" action="ninjas/yellow" method="post">
+      {% csrf_token %}
+      <input type="submit" name="" value="Michaelangelo">
+    </form>
+    {%load static%}
+    <img src="{%static pic %}" alt="">
+  </body>
+</html>

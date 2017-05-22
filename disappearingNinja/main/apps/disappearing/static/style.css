@@ -1,0 +1,23 @@
+p{
+  color: green;
+}
+body{
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+}
+form{
+}
+form input{
+  width: 100px;
+}
+form input:hover{
+  cursor: pointer;
+  background-color: #29a1d1;
+  color: white;
+}
+img{
+  width: 200px;
+  height: auto;
+  margin: 0px auto;
+}
